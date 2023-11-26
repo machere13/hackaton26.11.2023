@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 430px;
+    height: 932px;
+    margin: 0 auto;
+    background-color: #F2F3F7;
+    border: 1px solid #000;
+}
+
+h1{
+    font-family: 'MTSCompactRegular', sans-serif;
+    font-size: 1.5rem;
+}
+
+h2{
+    font-family: 'MTSCompactRegular', sans-serif;
+    color: #573939;
+}
+
+p{
+    font-family: 'MTSCompactRegular', sans-serif;
+    font-size: 0.875rem;
+}
+
+a:active,
+a:hover,
+a{
+    text-decoration: 0;
+    color: inherit;
+}
+
+input, button, h2, a{
+    font-size: 1rem;
+}
+
+input{
+    font-family: 'MTSCompactRegular', sans-serif;
+}
+
+.topsec{
+    display: flex;
+    flex-direction: row;
+    margin: 57px 24px 16px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-field{
+    margin: 0 auto;
+    width: 381px;
+    height: 50px;
+    margin-bottom: 16px;
+}
+
+.input-field input{ 
+    width: 100%;
+    height: 100%;
+    border: 1px solid #E8E8E8;
+    border-radius: 15px;
+    background-color: #F6F6F6;
+    padding: 0 16px;
+}
+
+.input-field input:focus{
+    outline: 0;
+    border: 1px solid #FF0032;
+}
+
+.input-field input::placeholder{
+    font-family: 'MTSWideRegular', sans-serif;
+    color: #BDBDBD;
+}
+
+.input-field input:focus::placeholder{
+    color: transparent;
+}
+
+.tracks{
+    margin: 16px 8px 360px;
+}
+
+.tracklist{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 24px;
+}
+
+.tracklist > h2{
+    color: #DADADA;
+    font-size: 15px;
+    margin: 0 16px;
+}
+
+.avatarsong{
+    margin-left: 3px;
+}
+
+.trackinfo > h2{
+    margin-bottom: 6px;
+    font-size: 17px;
+}
+
+.trackinfo > p{
+    color: #DADADA;
+    font-size: 13px;
+}
+
+.trackMainInfo{
+    margin-left: 16px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trackMainInfo > h2{
+    font-size: 15px;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 382px;
+    height: 58px;
+    font-family: 'MTSWideMedium', sans-serif;
+    background-color: #FF0032;
+    border-radius: 10px;
+    border-width: 0px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0 auto;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button:active{
+    background-color: #000;
+    color: #fff;
+}

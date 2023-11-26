@@ -1,0 +1,65 @@
+@font-face {
+	font-family: 'MTSWideRegular';
+	src: url(../fonts/MTSWide-Regular/MTSWide-Regular.eot);
+	src:
+	     url(../fonts/MTSWide-Regular/MTSWide-Regular.eot?#iefix) format('embedded-opentype'),
+	     url(../fonts/MTSWide-Regular/MTSWide-Regular.woff2) format('woff2'),
+	     url(../fonts/MTSWide-Regular/MTSWide-Regular.woff) format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'MTSWideMedium';
+	src: url(../fonts/MTSWide-Medium/MTSWide-Medium.eot);
+	src:
+	     url(../fonts/MTSWide-Medium/MTSWide-Medium?#iefix) format('embedded-opentype'),
+	     url(../fonts/MTSWide-Medium/MTSWide-Medium.woff2) format('woff2'),
+	     url(../fonts/MTSWide-Medium/MTSWide-Medium.woff) format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'MTSWideBold';
+	src: url(../fonts/MTSWide-Bold/MTSWide-Bold.eot);
+	src:
+	     url(../fonts/MTSWide-Bold/MTSWide-Bold.eot) format('embedded-opentype'),
+	     url(../fonts/MTSWide-Bold/MTSWide-Bold.woff2) format('woff2'),
+	     url(../fonts/MTSWide-Bold/MTSWide-Bold.woff) format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'MTSCompactRegular';
+	src: url(../fonts/MTSCompact-Regular/MTSCompact-Regular.eot);
+	src:
+	     url(../fonts/MTSCompact-Regular/MTSCompact-Regular.eot?#iefix) format('embedded-opentype'),
+	     url(../fonts/MTSCompact-Regular/MTSCompact-Regular.woff2) format('woff2'),
+	     url(../fonts/MTSCompact-Regular/MTSCompact-Regular.woff) format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'MTSTextRegular';
+	src: url(../fonts/MTSText-Regular/MTSText-Regular.eot);
+	src:
+	     url(../fonts/MTSText-Regular/MTSText-Regular.eot?#iefix) format('embedded-opentype'),
+	     url(../fonts/MTSText-Regular/MTSText-Regular.woff2) format('woff2'),
+	     url(../fonts/MTSText-Regular/MTSText-Regular.woff) format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'MTSTextMedium';
+	src: url(../fonts/MTSText-Medium/MTSText-Medium.eot);
+	src:
+	     url(../fonts/MTSText-Medium/MTSText-Medium.eot?#iefix) format('embedded-opentype'),
+	     url(../fonts/MTSText-Medium/MTSText-Medium.woff2) format('woff2'),
+	     url(../fonts/MTSText-Medium/MTSText-Medium.woff) format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
